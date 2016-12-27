@@ -6363,7 +6363,25 @@ header ul li a {
   background-image: url(../img/1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 350px; }
+  height: 365px; }
+
+.img2 {
+  background-image: url(../img/6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px; }
+
+.img3 {
+  background-image: url(../img/13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px; }
+
+.img4 {
+  background-image: url(../img/4a.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150px; }
 
 .popular {
   background-color: #f44336;
