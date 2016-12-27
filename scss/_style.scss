@@ -1,0 +1,14 @@
+header{
+	a{
+		color: $titulos;
+	}
+	ul li a{
+		color:$titulos;
+	}
+}
+.img1{
+	@include imgFondo( url(../img/1.png), no-repeat, cover, 350px);
+}
+.popular{
+	@include cuadroRojo($rojo, $white, 90px, 0px, 20px, 0px, 0px);
+}

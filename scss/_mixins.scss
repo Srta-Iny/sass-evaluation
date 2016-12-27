@@ -1,0 +1,16 @@
+@mixin imgFondo($img, $bRepeat, $bSize, $alto){
+	background-image: $img;
+	background-repeat: $bRepeat;
+	background-size: $bSize;
+	height: $alto;
+}
+
+@mixin cuadroRojo($fondo, $color, $ancho, $ptop, $plef, $pright, $pbottom) {
+	background-color: $fondo;
+	color: $color;
+	width: $ancho;
+	padding-top:$ptop;
+	padding-left: $plef;
+	padding-right:$pright;
+	padding-bottom:$pbottom;
+}
